@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Финакадемия</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <input id="lang" type="checkbox" onclick="changeLagnuage()" />
+      <label for="lang" class="rus">RUS</label
+      ><label for="lang" class="eng">ENG</label>
+      <nav class="header__navigation">
+        <a text="header" class="header__link" href="#" target="_blank"></a>
+        <a text="header" class="header__link" href="#" target="_blank"></a>
+        <a text="header" class="header__link" href="#" target="_blank"></a>
+        <a text="header" class="header__link" href="#" target="_blank"></a>
+        <a text="header" class="header__link" href="#" target="_blank"></a>
+      </nav>
+      <img class="header__burger" src="./images/burger.svg" alt="Меню"/>
+    </header>
+    <main>
+      <section class="lead">
+        <img class="lead__logo" src="./images/logo.png" alt="Лого"/>
+        <h1 text="title" class="lead__title"></h1>
+        <h2 text="description" class="lead__subtitle"></h2>
+        <h3 text="short_description" class="lead__shortsubtitle"></h3>
+      </section>
+
+      <section class="our">
+        <div class="our__group">
+          <article class="our__cell">
+            <h3 class="our__subtitle" text="ourSubtitle"></h3>
+            <p class="our__text" text="ourText"></p>
+          </article>
+
+          <article class="our__cell">
+            <h3 class="our__subtitle" text="ourSubtitle"></h3>
+            <p class="our__text" text="ourText"></p>
+          </article>
+
+          <article class="our__cell">
+            <h3 class="our__subtitle" text="ourSubtitle"></h3>
+            <p class="our__text" text="ourText"></p>
+          </article>
+        </div>
+
+        <div class="team">
+          <h3 class="team__subtitle" text="teamSubtitle"></h3>
+          <p class="team__text" text="teamText"></p>
+          <a class=team__link href="https://finakademiya.ru/team/"><button class="team__button" text="teamButton"></button></a>
+        </div>
+      </section>
+
+      <section class="partners">
+        <h2 class="titles partners__title" text="titles"></h2>
+
+        <div class="partners__group">
+          <a
+            class="partners__link"
+            href="https://severgazbank.ru/"
+            target="_blank"
+          >
+            <div class="partners__cell">
+              <h3 class="partners__subtitle" text="partnersSubtitle"></h3>
+              <p class="partners__text" text="partnersText"></p>
+              <img
+                class="partners__logo"
+                src="https://ffin.ru/images/logo.svg" alt="Логотип"
+              /></div
+          ></a>
+
+          <a
+            class="partners__link"
+            href="https://severgazbank.ru/"
+            target="_blank"
+          >
+            <div class="partners__cell">
+              <h3 class="partners__subtitle" text="partnersSubtitle"></h3>
+              <p class="partners__text" text="partnersText"></p>
+              <img
+                class="partners__logo partners__logo_alpha"
+                src="./images/Alfa-Bank.svg" alt="Логотип"
+              /></div
+          ></a>
+
+          <a
+            class="partners__link"
+            href="https://severgazbank.ru/"
+            target="_blank"
+          >
+            <div class="partners__cell">
+              <h3 class="partners__subtitle" text="partnersSubtitle"></h3>
+              <p class="partners__text" text="partnersText"></p>
+              <img
+                class="partners__logo partners__logo_sever"
+                src="https://severgazbank.ru/upload/medialibrary/68c/logo_2020.png" alt="Логотип"
+              /></div
+          ></a>
+        </div>
+      </section>
+
+      <section class="products">
+        <h2 class="titles products__title" text="titles"></h2>
+        <div class="products__group">
+          <a href="https://finakademiya.ru/zpif/">
+            <div class="products__cell">
+              <h3 class="products__subtitle" text="productsSubtitle"></h3>
+              <p class="products__text" text="productsText"></p>
+              <img class="products__image" src="./images/ipo.png" alt="IPO"/></div
+          ></a>
+          <a href="https://finakademiya.ru/rur/">
+            <div class="products__cell">
+              <h3 class="products__subtitle" text="productsSubtitle"></h3>
+              <p class="products__text" text="productsText"></p>
+              <img class="products__image" src="./images/credit.jpg" alt="Кредит"/></div
+          ></a>
+        </div>
+      </section>
+
+      <section class="news">
+        <h2 class="titles news__title" text="titles"></h2>
+        <div class="news__group">
+          <div class="news__cell">
+            <h3 class="news__subtitle" text="newsSubtitle"></h3>
+            <p class="news__text" text="newsText"></p>
+          </div>
+          <div class="news__cell">
+            <h3 class="news__subtitle" text="newsSubtitle"></h3>
+            <p class="news__text" text="newsText"></p>
+          </div>
+          <div class="news__cell">
+            <h3 class="news__subtitle" text="newsSubtitle"></h3>
+            <p class="news__text" text="newsText"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu">
+        <div class="menu__content">
+          <nav class="menu__navigation">
+            <a text="menu" class="menu__link" href="#" target="_blank"></a>
+            <a text="menu" class="menu__link" href="#" target="_blank"></a>
+            <a text="menu" class="menu__link" href="#" target="_blank"></a>
+            <a text="menu" class="menu__link" href="#" target="_blank"></a>
+            <a text="menu" class="menu__link" href="#" target="_blank"></a>
+          </nav>
+          <img
+            class="menu__close"
+            src="https://pavelsolodkin.github.io/news-explorer-frontend/717e676efa7efc801008cdda37da9cfb.png" alt="Закрыть"
+          />
+        </div>
+      </section>
+
+
+
+      <footer class="footer">
+        <nav class="footer__social">
+          <a class="footer__link" href="https://www.instagram.com/finacademiya/" target="_blank"
+            ><img class="footer__image" src="./images/inst.svg" alt="Инстаграм"/><span
+            text="social_media" class="footer-links"></span
+            ></a
+          >
+          <a class="footer__link" href="https://www.facebook.com/finacademiya" target="_blank"
+            ><img class="footer__image" src="./images/facebook.svg" alt="Фейсбук"/><span
+            text="social_media" class="footer-links"></span
+            ></a
+          >
+        </nav>
+
+        <div class="footer__nums">
+          <p class="footer__link">
+            <img class="footer__image" src="./images/smartphone.svg" alt="Телефон"/><span
+            text="social_media" class="footer-links"></span
+            >
+          </p>
+          <p class="footer__link">
+            <img class="footer__image" src="./images/email.svg" alt="Мейл"/><span
+            text="social_media" class="footer-links"></span
+            >
+          </p>
+        </div>
+
+        <div class="footer__com">
+          <a class="footer__arrow" href="#"
+            ><img src="./images/arrow.svg" alt="Наверх"
+          /></a>
+          <h2 class="footer__title footer-links" text="social_media">
+        </div>
+      </footer>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
